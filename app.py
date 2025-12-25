@@ -8,7 +8,7 @@ st.title("📈 AI 股市投資策略分析")
 
 # 側邊欄設定 API Key
 with st.sidebar:
-    api_key = st.text_input("請輸入 OpenAI API Key", type="password")
+    api_key = st.text_input("請輸入 OpenAI API Key", type="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")
     target_stock = st.text_input("輸入股票代號 (例如: 2330.TW 或 AAPL)", value="2330.TW")
 
 if st.button("開始抓取資訊並分析"):
